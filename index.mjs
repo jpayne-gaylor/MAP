@@ -63,7 +63,7 @@ L.marker([31.51164860781731, -98.79305397662206], { icon: customIcon }).addTo(
   map
 ).bindPopup(`
     <div class="popup">
-      <img src="https://th.bing.com/th/id/OIP._GwoT-mTaxCV2qhFfHsC0AHaHa?w=165&h=196&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3" class="popup-img" />
+      <img src="https://awscloudfront.mangoapps.com/pulse/gaylor/attachments/24866818/thumbnail/0/1781890599077_webp_preview.webp?bucket_name=mangospring&module_salt=TnE2Mk95bDBnWmlYR0MyME81SXJZWndJbTVQYzF2d0YvMStydnRwQUZtZ3podUpoSER1bFl0NzRtb2JHcjdqSC0tTTlhT2t0YlQrTTdKWFA0Mi9wV2pSUT09" class="popup-img" />
       <h3>Somewhere in Texas</h3>
       <p>Someone probably</p>
     </div>

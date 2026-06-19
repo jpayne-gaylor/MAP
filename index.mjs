@@ -4,7 +4,7 @@ if (L.DomUtil.get("map") !== null) {
 }
 
 // Initialize the map
-const map = L.map("map").setView([36.21851062033088, -81.68359844147935], 5);
+const map = L.map("map").setView([36.21851062033088, -81.68359844147935], 6);
 
 // Google Maps tile layer
 L.tileLayer("http://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}", {

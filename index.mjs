@@ -4,7 +4,7 @@ if (L.DomUtil.get("map") !== null) {
 }
 
 // Initialize the map
-const map = L.map("map").setView([40.05517113654225, -85.98528012942833], 13);
+const map = L.map("map").setView([36.21851062033088, -81.68359844147935], 20);
 
 // Google Maps tile layer
 L.tileLayer("http://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}", {
@@ -23,7 +23,7 @@ L.marker([40.05517113654225, -85.98528012942833], { icon: customIcon }).addTo(
   map
 ).bindPopup(`
     <div class="popup">
-      <img src="" class="popup-img" />
+      <img src="https://th.bing.com/th/id/OIP.h5BYzoCLipxtDQTDtko3FQHaHa?w=142&h=150&c=6&r=0&o=7&dpr=1.5&pid=1.7&rm=3" class="popup-img" />
       <h3>Noblesville, IN</h3>
       <p>Jeff Pea (PIC Manager)</p>
     </div>

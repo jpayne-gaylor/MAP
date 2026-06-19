@@ -19,7 +19,7 @@ const customIcon = L.icon({
 });
 
 // Markers
-L.marker([40.05517113654225, -85.98528012942833], { icon: customIcon }).addTo(
+L.marker([40.039009, -85.981193], { icon: customIcon }).addTo(
   map
 ).bindPopup(`
     <div class="popup">

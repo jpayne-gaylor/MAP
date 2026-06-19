@@ -23,7 +23,7 @@ L.marker([40.039009, -85.981193], { icon: customIcon }).addTo(
   map
 ).bindPopup(`
     <div class="popup">
-      <img src="https://th.bing.com/th/id/OIP.h5BYzoCLipxtDQTDtko3FQHaHa?w=142&h=150&c=6&r=0&o=7&dpr=1.5&pid=1.7&rm=3" class="popup-img" />
+      <img src="https://awscloudfront.mangoapps.com/pulse/gaylor/attachments/24859441/thumbnail/0/1781795298626_webp_preview.webp?bucket_name=mangospring&module_salt=allqOTRmTTl1bkZIUW5PT2dhMlFiS1YrSG1kRlV5SklOUUVQdG1yQ2orRHN3OHdUTXdiYXBoYUw5cVdmZjRnRi0tTTlhT2t0YlQrTTdKWFA0Mi9wV2pSUT09" class="popup-img" />
       <h3>IND - 17230 Kraft Ct, Noblesville, IN 46060</h3>
       <p>Jeff Pea (PIC Manager)</p>
     </div>
@@ -56,5 +56,15 @@ L.marker([33.7609894450294, -84.56533010217149], { icon: customIcon }).addTo(
       <img src="https://images1.loopnet.com/i2/RJVctx4RAZg9HtcamS9mUQCc3BFgpCuRKCnvh1dr5Y8/116/335-Riverside-Pky-Austell-GA-Primary-Photo-1-LargeHighDefinition.jpg" class="popup-img" />
       <h3>ATL - 335 Riverside Pkwy, Austell, GA 30168</h3>
       <p>Colin Heron (Innovation Manager)</p>
+    </div>
+  `);
+
+L.marker([31.51164860781731, -98.79305397662206], { icon: customIcon }).addTo(
+  map
+).bindPopup(`
+    <div class="popup">
+      <img src="https://th.bing.com/th/id/OIP._GwoT-mTaxCV2qhFfHsC0AHaHa?w=165&h=196&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3" class="popup-img" />
+      <h3>Somewhere in Texas</h3>
+      <p>Someone probably</p>
     </div>
   `);

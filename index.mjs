@@ -19,9 +19,7 @@ const customIcon = L.icon({
 });
 
 // Markers
-L.marker([40.039009, -85.981193], { icon: customIcon }).addTo(
-  map
-).bindPopup(`
+L.marker([40.039009, -85.981193], { icon: customIcon }).addTo(map).bindPopup(`
     <div class="popup">
       <img src="https://awscloudfront.mangoapps.com/pulse/gaylor/attachments/24859441/thumbnail/0/1781795298626_webp_preview.webp?bucket_name=mangospring&module_salt=allqOTRmTTl1bkZIUW5PT2dhMlFiS1YrSG1kRlV5SklOUUVQdG1yQ2orRHN3OHdUTXdiYXBoYUw5cVdmZjRnRi0tTTlhT2t0YlQrTTdKWFA0Mi9wV2pSUT09" class="popup-img" />
       <h3>IND - 17230 Kraft Ct, Noblesville, IN 46060</h3>
@@ -55,16 +53,14 @@ L.marker([33.7609894450294, -84.56533010217149], { icon: customIcon }).addTo(
     <div class="popup">
       <img src="https://images1.loopnet.com/i2/RJVctx4RAZg9HtcamS9mUQCc3BFgpCuRKCnvh1dr5Y8/116/335-Riverside-Pky-Austell-GA-Primary-Photo-1-LargeHighDefinition.jpg" class="popup-img" />
       <h3>ATL - 335 Riverside Pkwy, Austell, GA 30168</h3>
-      <p>Colin Heron (Innovation Manager)</p>
+      <p>Colin Heron (Innovation PM)</p>
     </div>
   `);
 
-L.marker([31.51164860781731, -98.79305397662206], { icon: customIcon }).addTo(
-  map
-).bindPopup(`
-    <div class="popup">
-      <img src="https://awscloudfront.mangoapps.com/pulse/gaylor/attachments/24866818/thumbnail/0/1781890599077_webp_preview.webp?bucket_name=mangospring&module_salt=TnE2Mk95bDBnWmlYR0MyME81SXJZWndJbTVQYzF2d0YvMStydnRwQUZtZ3podUpoSER1bFl0NzRtb2JHcjdqSC0tTTlhT2t0YlQrTTdKWFA0Mi9wV2pSUT09" class="popup-img" />
-      <h3>Somewhere in Texas</h3>
-      <p>Someone probably</p>
-    </div>
-  `);
+L.marker([31.513077, -103.452706], { icon: customIcon }).addTo(map).bindPopup(`
+      <div class="popup">
+        <img src="https://awscloudfront.mangoapps.com/pulse/gaylor/attachments/24866818/thumbnail/0/1781890599077_webp_preview.webp?bucket_name=mangospring&module_salt=TnE2Mk95bDBnWmlYR0MyME81SXJZWndJbTVQYzF2d0YvMStydnRwQUZtZ3podUpoSER1bFl0NzRtb2JHcjdqSC0tTTlhT2t0YlQrTTdKWFA0Mi9wV2pSUT09" class="popup-img" />
+        <h3>MAF - 3013 Ranch Road FM 516, Barstow, TX 79719</h3>
+        <p>James Cotter (PIC Manager)</p>
+      </div>
+    `);
